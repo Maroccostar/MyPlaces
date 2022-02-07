@@ -35,8 +35,17 @@ class MainViewController: UITableViewController {
 
         cell.textLabel?.text = restaurantNames[indexPath.row]
         cell.imageView?.image = UIImage(named: restaurantNames[indexPath.row])
+        cell.imageView?.layer.cornerRadius = cell.frame.size.height / 2 // что бы при изм высоты ячейки иконка была динамична вместе с ней//85 / 2
+        cell.imageView?.clipsToBounds = true
 
         return cell
+    }
+    
+    // MARK: - Table view delegate
+    //данный метод возвращает высоту строки
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 85
+         
     }
     
 
