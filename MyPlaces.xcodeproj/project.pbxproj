@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4CC93E27B3747600770F93 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC93D27B3747600770F93 /* PlaceModel.swift */; };
 		CE68A47227B124CD00986333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A47127B124CD00986333 /* AppDelegate.swift */; };
 		CE68A47427B124CD00986333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A47327B124CD00986333 /* SceneDelegate.swift */; };
 		CE68A47927B124CD00986333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68A47727B124CD00986333 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4CC93D27B3747600770F93 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		CE68A46E27B124CD00986333 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68A47127B124CD00986333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE68A47327B124CD00986333 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				CE68A47127B124CD00986333 /* AppDelegate.swift */,
 				CE68A48527B13FFA00986333 /* MainViewController.swift */,
+				CE4CC93D27B3747600770F93 /* PlaceModel.swift */,
 				CE9A440D27B175740063EFAE /* CustomTableViewCell.swift */,
 				CE68A47327B124CD00986333 /* SceneDelegate.swift */,
 				CE68A47727B124CD00986333 /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				CE68A48627B13FFA00986333 /* MainViewController.swift in Sources */,
 				CE68A47227B124CD00986333 /* AppDelegate.swift in Sources */,
+				CE4CC93E27B3747600770F93 /* PlaceModel.swift in Sources */,
 				CE9A440E27B175740063EFAE /* CustomTableViewCell.swift in Sources */,
 				CE68A47427B124CD00986333 /* SceneDelegate.swift in Sources */,
 			);
